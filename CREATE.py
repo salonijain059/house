@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 
 data = pd.read_csv("Data Clean.csv")
-image = Image.open("image.jpg")
+image = Image.open("house.png")
 st.title("Welcome to the House Price Prediction App")
 st.image(image, use_column_width=True)
 
